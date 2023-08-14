@@ -1,4 +1,4 @@
-package org.test;
+package org.task;
 
 /**
  * Hello world!

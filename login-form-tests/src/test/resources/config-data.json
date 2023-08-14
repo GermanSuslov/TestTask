@@ -1,0 +1,11 @@
+{
+  "waitTime": 3,
+  "startUrl": "/src/test/resources/qa-test.html",
+  "browserType": "CHROME",
+  "driverOptions": [
+    "--start-maximized",
+    "--remote-allow-origins=*",
+    "ignore-certificate-errors",
+    "--lang=en"
+  ]
+}
