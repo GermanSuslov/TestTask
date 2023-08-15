@@ -6,7 +6,6 @@ target/generated-test-sources
 target/maven-status
 target/surefire-reports
 target/test-classes
-.allure/
 *.class
 
 # Maven Build
@@ -20,3 +19,4 @@ release.properties
 # IDE
 *.iml
 .idea/
+.allure/
