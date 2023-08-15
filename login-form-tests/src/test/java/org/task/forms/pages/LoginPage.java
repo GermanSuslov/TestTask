@@ -1,5 +1,6 @@
 package org.task.forms.pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.task.elements.Button;
 import org.task.elements.Field;
@@ -25,6 +26,7 @@ public class LoginPage extends BaseForm {
                 By.xpath("//input[@id = 'loginPassword']")));
     }
 
+    @Step("Ввести email")
     public void enterEmail(String email) {
         waiter.waitForElementToBeVisible(inputEmailField);
         inputEmailField.enterText(email);
